@@ -1,2 +1,2 @@
-{ "active": true, "level": "maintenance",
+{ "active": false, "level": "maintenance",
   "message": { "en": "Test - ignore" } }
