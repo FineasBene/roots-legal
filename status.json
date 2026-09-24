@@ -1,3 +1,8 @@
 {
-  "active": false
+  "active": true,
+  "level": "maintenance",
+  "until": "2026-09-24T19:00:00Z",
+  "message": {
+    "en": "Test only - ignore."
+  }
 }
