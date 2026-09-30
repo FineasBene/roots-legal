@@ -26,7 +26,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="muted">Roots: Quit Bad Habits &amp; Grow · Last updated: September 3, 2026</p>
+  <p class="muted">Roots: Quit Bad Habits &amp; Grow · Last updated: September 30, 2026</p>
 
   <p>This Privacy Policy explains how <strong>FBBF Studio</strong> ("we", "us", "our"), the data
   controller, handles your information in the <strong>Roots</strong> mobile application ("the App").
@@ -47,13 +47,23 @@
     <li><strong>Purchase status:</strong> whether you have an active subscription. Payments are
       processed by the app store (Google Play / Apple); we do not receive or store your card or
       banking details.</li>
+    <li><strong>Usage analytics:</strong> we record a small, fixed list of in-app events — the
+      app being opened, a screen being reached, an account being created, a habit being created
+      or reset, a duel being started or accepted, a card being opened, the paywall being shown,
+      a purchase completing. Each event carries only what is needed to count it: never the name
+      of a habit, never a note, never an email or a username. Events are tied to your account id
+      so the same person is not counted twice across devices. There is no automatic capture of
+      taps or screens. You can turn this off at any time in Settings, and nothing is sent while
+      it is off.</li>
     <li><strong>Technical data:</strong> we store an authentication session token on your device
       (in the device secure storage) so you stay signed in. A copy of your habit data is also
       cached locally on your device so the App works offline.</li>
   </ul>
   <p>We do <strong>not</strong> collect your precise location, contacts, photos, microphone, or
-  advertising identifiers, and we do <strong>not</strong> use third-party advertising or tracking,
-  and we do not run any analytics SDKs.</p>
+  advertising identifiers, and we do <strong>not</strong> use third-party advertising, ad
+  networks, or cross-app tracking. The only analytics we run are the product events described
+  above, which exist so we can see which parts of the App people actually reach — not to build a
+  profile of you, and never shared with advertisers.</p>
 
   <h2>2. Sensitive information</h2>
   <p>Because Roots helps you quit habits, the habits you choose to track (for example smoking,
@@ -92,6 +102,9 @@
   <ul>
     <li><strong>Supabase</strong> — database, authentication and storage.</li>
     <li><strong>Google</strong> — optional sign-in.</li>
+    <li><strong>PostHog</strong> — product analytics, hosted in the European Union. Receives the
+      events listed in section 1 and your account id; it receives no habit names, notes, emails
+      or usernames.</li>
     <li><strong>Google Play / Apple</strong> — subscription billing.</li>
     <li><strong>Other users</strong> — only the limited garden view you choose to share via the
       social features, and only with friends you approve.</li>
